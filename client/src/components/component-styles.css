@@ -1,0 +1,55 @@
+.nav-bar {
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    background-color: white;
+}
+
+.nav-left {
+    width: 50%;
+    height: 100%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.nav-right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 4rem;
+}
+
+.nav-logo {
+    width: 10rem;
+    margin-left: 1.5rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-logo:hover {
+    cursor: pointer;
+    width: 11rem;
+    margin-left: 1rem;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    transition: all ease-in-out 0.2s;
+}
+
+.nav-link:hover {
+    font-size: 1.6rem;
+    color: lightseagreen;
+    cursor: pointer;
+}
+
+
+.selected {
+    color: lightseagreen;
+}
