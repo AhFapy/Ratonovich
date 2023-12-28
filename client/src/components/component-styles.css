@@ -5,6 +5,10 @@
     flex-direction: row;
     position: fixed;
     background-color: white;
+    box-shadow:
+    0 0 60px 5px #fff,  /* inner white */
+    0 0 100px 10px #f0f, /* middle magenta */
+    0 0 140px 20px #0ff; /* outer cyan */
 }
 
 .nav-left {

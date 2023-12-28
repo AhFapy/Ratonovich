@@ -5,6 +5,11 @@ function LandingPage() {
   return (
     <>
         <NavBar selected="inicio"/>
+        <div className='header-lp'>
+          <span className='span-cover'>
+            <p className='header-span'>Ratonovich<br/>Park</p>  
+          </span>
+        </div>
     </>
   )
 }
